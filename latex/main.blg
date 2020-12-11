@@ -1,0 +1,108 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Warning--entry type for "ETrojan" isn't style-file defined
+--line 3 of file referencias.bib
+Warning--I'm ignoring ETrojan's extra "urlaccessdate" field
+--line 9 of file referencias.bib
+Warning--entry type for "OSIRIS-REx" isn't style-file defined
+--line 12 of file referencias.bib
+Warning--I'm ignoring OSIRIS-REx's extra "urlaccessdate" field
+--line 18 of file referencias.bib
+Warning--entry type for "ORD" isn't style-file defined
+--line 21 of file referencias.bib
+Warning--entry type for "NMOR" isn't style-file defined
+--line 29 of file referencias.bib
+Warning--entry type for "Nano2018" isn't style-file defined
+--line 37 of file referencias.bib
+Warning--I'm ignoring Nano2018's extra "urlaccessdate" field
+--line 43 of file referencias.bib
+Warning--entry type for "Inpe" isn't style-file defined
+--line 54 of file referencias.bib
+Warning--I'm ignoring Inpe's extra "urlaccessdate" field
+--line 60 of file referencias.bib
+Warning--entry type for "Souza2020" isn't style-file defined
+--line 63 of file referencias.bib
+Warning--I'm ignoring Souza2020's extra "urlaccessdate" field
+--line 69 of file referencias.bib
+Warning--entry type for "esa-eng" isn't style-file defined
+--line 72 of file referencias.bib
+Warning--entry type for "Durao2016" isn't style-file defined
+--line 80 of file referencias.bib
+Warning--I'm ignoring Durao2016's extra "urlaccessdate" field
+--line 87 of file referencias.bib
+Warning--entry type for "calpoly2009" isn't style-file defined
+--line 90 of file referencias.bib
+Warning--entry type for "UFSM2014" isn't style-file defined
+--line 98 of file referencias.bib
+Warning--I'm ignoring UFSM2014's extra "urlaccessdate" field
+--line 104 of file referencias.bib
+Warning--entry type for "Graham2014" isn't style-file defined
+--line 107 of file referencias.bib
+Warning--entry type for "osiris2020" isn't style-file defined
+--line 165 of file referencias.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--opção abnt-show-options passou para warn
+Warning--opção abnt-verbatim-entry passou para no
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 23 entries,
+            6714 wiz_defined-function locations,
+            1305 strings with 12817 characters,
+and the built_in function-call counts, 32929 in all, are:
+= -- 4179
+> -- 388
+< -- 1011
++ -- 1204
+- -- 121
+* -- 1888
+:= -- 3973
+add.period$ -- 85
+call.type$ -- 24
+change.case$ -- 159
+chr.to.int$ -- 28
+cite$ -- 16
+duplicate$ -- 3614
+empty$ -- 1282
+format.name$ -- 591
+if$ -- 6485
+int.to.chr$ -- 7
+int.to.str$ -- 3
+missing$ -- 345
+newline$ -- 85
+num.names$ -- 81
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 76
+quote$ -- 0
+skip$ -- 3875
+stack$ -- 1
+substring$ -- 1368
+swap$ -- 1227
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 2
+while$ -- 114
+width$ -- 0
+write$ -- 259
+(There were 22 warnings)

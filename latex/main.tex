@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ambiente Latex utilizado :
+% Fedora 32
+%   # dnf install -y texstudio \
+%   texlive-collection-publishers \
+%   texlive-babel-portuges \
+%   texlive-hyphen-portuguese \
+%   hunspell-pt
+
+\documentclass[%
+%%% PARA ESCOLHER O ESTILO TIRE O SIMBOLO %(COMENTÁRIO)
+SemVinculoColorido,
+%SemFormatacaoCapitulo,
+%SemFolhaAprovacao,
+%SemImagens,
+%CitacaoNumerica,       %% o padrão é citação tipo autor-data
+%PublicacaoDissOuTese,  %% (é também o "default") com ficha catal. e folha de aprovação em branco. Caso tenha lista de símbolos e lista de siglas e abreviaturas retirar os comentários dos arquivos siglas.tex e abreviaturasesiglas.tex. Retirar também os comentários indicados nesse arquivo, nos includes
+%PublicacaoArtigoOuRelatorio,   %% texto sequencial, sem quebra de páginas nem folhas em branco
+PublicacaoProposta,    %% igual tese/dissertação, mas sem ficha catal. e fol. de aprov.
+%PublicacaoLivro,       %% com capítulos
+%PublicacaoLivro,SemFormatacaoCapitulo, %% sem capítulos
+english,portuguese      %% para os documentos em Português com abstract.tex em Inglês
+%portuguese,english     %% para os documentos em Inglês com abstract.tex em Português
+,LogoINPE               % comentar essa linha para fazer aparecer o logo do Governo
+,CCBYNC             	% as opções de licença são: CCBY, CCBYSA, CCBYND, CCBYNC, CCBYNCSA, CCBYNCND, GPLv3 e INPECopyright
+]{aux/tdiinpe}
+%]{../../../../../iconet.com.br/banon/2008/03.25.01.19/doc/tdiinpe}
+% PARA EXIBIR EM ARIAL TIRAR O COMENTÁRIO DAS DUAS LINHAS SEGUINTES
+%\renewcommand{\rmdefault}{phv}     % Arial
+%\renewcommand{\sfdefault}{phv}     % Arial
+% PARA PUBLICAÇÕES EM INGLÊS:
+% renomear o arquivo: abnt-alf.bst para abnt-alfportuguese.bst
+% renomear o arquivo: abnt-alfenglish.bst para abnt-alf.bst
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Pacotes já previamente carregados:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ifthen, calc, graphicx, color, inputenc, babel, hyphenat, array, setspace,
+%%% bigdelim, multirow, supertabular, tabularx, longtable, lastpage, lscape,
+%%% rotate, caption2, amsmath, amssymb, amsthm, subfigure, tocloft, makeidx,
+%%% eso-pic, calligra, hyperref, ae, fontenc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% insira neste campo, comandos de LaTeX
+%%% \usepackage{_exemplo_}
+\usepackage{lipsum}
+
+
+
+%---------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\watermark{Revisão No. ##} %% use o comando \watermark para identificar a versão de seu documento. Comente este comando quando for gerar a versão final
+%\usepackage{rotating}
+\input{aux/configuracao} %% faça as modificações pertinentes no arquivo configuracao.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%--COMANDOS PESSOAIS--------------------
+
+
+
+\newcommand{\vetor}[1]{\mathit{\mathbf{#1}}}
+\newcommand{\g}{$^{\circ}$ }
+% apêndice é o texto que vc faz, anexo são textos de terceiros.
+% comandos para refenciar apêndice e anexos. usar ``Apendice A'' e ``Anexo 1''
+\newcommand{\refape}[1]{\hyperref[#1]{(apêndice~\ref*{#1})}}
+\newcommand{\refane}[1]{\hyperref[#1]{(anexo~\ref*{#1})}}
+\newcommand{\rf}[1]{\hyperref[#1]{Figura~\ref*{#1}}}
+\newcommand{\reftab}[1]{\hyperref[#1]{Tabela~\ref*{#1}}}
+\newcommand{\refeqn}[1]{\hyperref[#1]{equação~\ref*{#1}}}
+% para uso com Calc2Latex:
+\newcommand{\tabini}[1]{
+    \begin{table}
+    \small
+    \caption{#1}
+    \begin{center}
+}
+\newcommand{\tabfim}[2]{
+    \end{center}
+    \FONTE{#2}
+    \label{#1}
+    \end{table}
+}
+\newcommand{\no}[0]{\textsuperscript{\b{o}}}
+\newcommand{\f}[3]{
+	\begin{figure}[ht]
+		\caption{#3.}
+		\vspace{3mm}
+		\begin{center}
+			\includegraphics{img/#1}
+		\end{center}
+		\vspace{0mm}
+		\legenda{}
+		\FONTE{#2.}
+		\label{#1}
+	\end{figure}
+}
+
+
+
+
+%---------------------------------------
+\makeindex  %% não alterar, gera INDEX, caso haja algum termo indexado no texto
+\begin{document} %% início do documento %% não mexer
+
+	
+%\marcaRegistrada{}	    % comando opcional usado para informar abaixo da ficha catalográfica sobre marca registrada
+\marcaRegistrada{Informar aqui sobre marca registrada (a modificação desta linha deve ser feita no arquivo publicacao.tex).}
+%\financiamento{}	  % comando opcional usado para informar abaixo da ficha catalográfica sobre fontes financiadoras
+\financiamento{Informar aqui sobre fontes financiadoras (a modificação desta linha deve ser feita no arquivo publicacao.tex).}
+%\financiamento{O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001.}
+%\financiamento{This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001.}
+% nao alterar gera paginas obrigatorias (folha de rosto, ficha catalografica e folha de aprovaca) automaticamente
+% desl pageanchor para evitar "destination with the same identifier"
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+%%% Comente \label{key}as linhas opcionais abaixo caso não as deseje
+%\include{tex/epigrafe} %% Opcional
+%\include{tex/dedicatoria} %% Opcional
+%\include{tex/agradecimentos} %% Opcional
+%---------------------------------------
+
+
+\include{tex/resumo}        %% obrigatório
+%\include{tex/abstract}      %% obrigatório
+
+
+%---------------------------------------
+\includeListaFiguras        %% obrigatório caso haja mais de 3 figuras, gerado automaticamente
+\includeListaTabelas        %% obrigatório caso haja mais de 3 tabelas, gerado automaticamente
+%\include{tex/abreviaturasesiglas}   %% opcional, altere o arquivo siglaseabreviaturas.tex
+%\include{tex/simbolos}      %% opcional, altere o arquivo simbolos.tex
+\includeSumario             %% obrigatório, gerado automaticamente
+\inicioIntroducao           %% não altere este comando
+%% insira quantos capítulos desejar com o seguinte comando:
+%\include{_pasta_do_arquivo_/_meu_arquivo_} %%sem a extensão
+%% note que deverá haver um arquivo _meu_arquivo_.tex (com extensão) no diretório _pasta_do_arquivo_
+%---------------------------------------
+
+
+
+
+% INTRODUÇÃO
+\include{tex/capitulo010}
+% NanosatC-BR
+\include{tex/capitulo020}
+% OSIRIS-REx
+\include{tex/capitulo030}
+% CONCLUSÃO
+\include{tex/capitulo040}
+
+
+
+%---------------------------------------
+%% Bibliografia, não alterar, obrigatório, testebib
+%% aponte para seu arquivo de bibliografia no formato bibtex (p.ex: referencia.bib)
+\bibliography{referencias.bib}
+\label{chp:bibl}     
+%\include{tex/glossario}     %% insira os termos do glossário no arquivo glossario.tex %% opcional
+%---------------------------------------
+% \inicioApendice    %% opcional, comente esta linha e a seguintes se não houver apendice(s)
+% \include{tex/apendiceA}
+% \include{tex/apendiceB}
+%---------------------------------------
+% \inicioAnexo
+% \include{tex/anexo1}
+%---------------------------------------
+%\inicioIndice
+\include{tex/contracapa}
+\end{document}
+
+
+%% EOF

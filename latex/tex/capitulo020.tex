@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CAPÍTULO - NanosatC-Br1
+
+\chapter{NanosatC-Br1}
+\label{chp:nsat}
+
+Os objetivos do projeto CubeSat são a capacitação para a realização de pesquisa e desenvolvimento com instrumentação espacial, a capacitação tecnológica das instituições que participam da missão, o monitoramento do geoespaço, qualificação de circuitos eletrônicos no espaço, pesquisas científicas relacionadas a fenomenologia do geoespaço e clima espacial, e promoção de cooperação \cite{Inpe}. É o primeiro satélite científico Cubesat desenvolvido no Brasil. Este capítulo mostra missão, descrição, funcionamento, e equipamentos do NanosatC-Br1.
+
+
+\section{Missão} %e objetivo
+
+
+A missão é estudar distúrbios da magnetosfera, principalmente na região da Anomalia Magnética do Atlântico Sul (SAMA), e também no setor brasileiro do Eletrojato Equatorial Ionosférico (EEJ). Além disso, testa em voo circuitos integrados projetados no Brasil resistentes à radiação, com o objetivo de serem utilizados em missões futuras.
+
+
+\section{Descrição} %diagrama(espaçonave), fotos, explicação geral
+
+\f{nsat01}{\citeonline{Inpe}}{Modelo de engenharia da plataforma}
+\f{1u}{\citeonline{Durao2016}}{Padrão CubeSat 1U}
+\f{nsatplat}{\citeonline{Durao2016}}{Plataforma}
+
+A \rf{nsat01} mostra o Modelo de Engenharia da plataforma, que é o modelo para testes funcionais \cite{Souza2020} que antecede o Modelo de Voo \cite{esa-eng}, e utiliza o padrão CubeSat 1U (\rf{1u} e \rf{nsatplat}). O Cubesat (Cube Satellite) normalmente possui o volume de 1 litro (10x10x10cm), massa de até 1,33 kg, e usa componentes eletrônicos ``de prateleira'' \cite{calpoly2009}.
+
+\f{dnepr01}{Wikipedia}{Veículo Dnepr}
+\f{dnepr02}{orbita.zenite.nu}{Dnepr - lançamento}
+\f{pod}{AMSAT-UK Radio Amateur Satellites}{P-Pod Orbital Deployer}
+
+O NanosatC-Br1 foi lançado em 19/07/14 na base de Dombarovsky na Rússia, por um veículo Dnepr (\rf{dnepr01}) que é um míssil balístico ICBM convertido para colocar satélites em órbita, lançado a partir de seu silo subterrâneo (\rf{dnepr02}). O Dnepr lançou 37 satélites de uma só vez \cite{Graham2014}. Eles são acoplados em um dispositivo/interface que os ejeta assim que o veículo estiver na órbita de lançamento correta. Existem vários tipos de interface entre o Cubesat e o Lançador, como por exemplo o P-POD (Poly Picosatellite Orbit Deployer) (\rf{pod})
+desenvolvido pela California Polytechnic State University (CalPoly) \cite{Burger2009}.
+
+
+\section{Funcionamento}
+
+Através dos instrumentos, é possível determinar os efeitos em regiões como a da anomalia magnética do atlântico sul e do setor brasileiro do eletrojato equatorial \cite{UFSM2014}. O detector de partículas permite o monitoramento em tempo real do geoespaço, permitindo o estudo da precipitação de partículas e de distúrbios na magnetosfera sobre o território nacional, determinando os efeitos em regiões como a da Anomalia Magnética no Atlântico Sul e do setor brasileiro do eletrojato equatorial.
+
+Assim que foi lançado passou a operar em modo de segurança transmitindo em código morse (\textit{beacon}). Ao captar o sinal foi necessário considerar as variações de frequência do sinal devido ao efeito Doppler e à variação de temperatura. Na sequência ocorreu o envio de telecomandos e a mudança para o modo nominal, com transmissão digital em hexa, \textit{beacon} de 165 bytes e geração de arquivos de carga útil e parâmetros de plataforma. Estes dados são então decodificados e transformados em valores de engenharia.
+\cite{Durao2016}
+
+\section{Equipamentos} %o que vai nele, detalhar
+
+Ele leva dois instrumentos, um magnetômetro e um detector de partículas de precipitação. O magnetômetro é de três eixos da empresa holandesa Xensor Integration, modelo XEN-1210, XI 2x2x4 mm., 3 eixos + eletrônica.
+
+Utiliza um circuito integrado resistente à radiação, projetado e construído pela UFSM, o \emph{RH-DRVTestChip-I}, que tem a função de selecionar cargas úteis, é acionado por telecomando, e atua como interface entre \emph{cargas úteis} e a \emph{plataforma de serviço} do satélite. Utiliza também um sistema FPGA resistente à radiação desenvolvido pela UFRGS \cite{Nano2018}.
+
+\f{util}{\citeonline{Durao2016}}{Diagrama da placa de carga útil do NanosatC-Br1}
+
+O diagrama da placa de carga útil do NanosatC-Br1 é mostrado na \rf{util} e é constituído basicamente de magnetômetro, FPGA, e SMDH. No diagrama, o barramento I2C é responsável pela comunicação dos componentes eletrônicos, o BOB (\textit{Break-out Board}) assiste na comunicação entre as placas eletrônicas do satélite \cite{conceicao2016}, o FPGA controla os dados do experimento e faz a interface com o computador de bordo, o SMDH (Santa Maria Design House) é um componente eletrônico ASIC projetado para ser tolerante à radiação e que está sendo testado no ambiente espacial, e o magnetômetro registra variações na intensidade do campo magnético terrestre
+\cite{Couto2019}.
+
+
+%% EOF

@@ -1,0 +1,127 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Burger et al. 2009]{Burger2009}
+\abntrefinfo{Burger et al.}{BURGER et al.}{2009}
+{BURGER, E.~E.; OTAVIO; SCHUCH, N.~J.; LOPES, L.; RUBENS; NICOLINE. Interface
+  lan{\c{c}}ador/cubesat para o projeto do nanosatc-br. In:  CONGRESSO REGIONAL
+  DE INICIA{\c{C}}{\~A}O CIENT{\'{I}}FICA E TECNOL{\'O}GICA EM ENGENHARIA, 23.
+  (CRICTE)., 2009, Joinville - SC. \textbf{Anais...} 2009. Dispon{\'\i}vel em:
+  \url{http://www2.joinville.udesc.br/~cricte/}. Acesso em: 10 dez. 2020.}
+
+\bibitem[CalPoly 2009]{calpoly2009}
+\abntrefinfo{CalPoly}{CALPOLY}{2009}
+{CALPOLY, C. P. S.~U. \textbf{CubeSat Design Specification}. 2009.
+Dispon{\'\i}vel em:
+  \url{http://www.cubesat.org/images/developers/cds\_rev12.pdf}. Acesso em:
+  2020-11-22.}
+
+\bibitem[Conceicao et al. 2016]{conceicao2016}
+\abntrefinfo{Conceicao et al.}{CONCEICAO et al.}{2016}
+{CONCEICAO, C.; AMBROSIO, A.~M.; FRANCISCO, M. d.~F. M. On the use of
+  nanosatc-br test system for payload operational requirements verification.
+  In:  LATIN AMERICAN IAA CUBESAT WORKSHOP, 2., 28 Feb. - 02 Mar.,
+  Florian{\'o}polis, SC. [S.l.], 2016. Acesso em: 10 dez. 2020.}
+
+\bibitem[Couto et al. 2019]{Couto2019}
+\abntrefinfo{Couto et al.}{COUTO et al.}{2019}
+{COUTO, A.~P.; DUR{\~A}O, O. S.~C.; SCHUCH, N.~J. Desenvolvimento de um modelo
+  de engenharia cad 3d para cubesats. In:  SANTOS, R. D. C.~D.; MATTOS, A. F.
+  D. S.~D.; MELLO, C.~B.; QUEIROZ, G. R.~D.; VASCONCELOS, L. G.~D.; VIEIRA, L.
+  E.~A.; FORTI, M.~C.; GATTO, R.~C. (Ed.). \textbf{Anais...} S{\~a}o Jos{\'e}
+  dos Campos: Instituto Nacional de Pesquisas Espaciais (INPE), 2019. {Bolsa
+  PIBIC/INPE/CNPq}. Dispon{\'\i}vel em:
+  \url{http://urlib.net/rep/8JMKD3MGPDW34R/3U47EE2}. Acesso em: 10 dez. 2020.}
+
+\bibitem[Durao e Schuch 2016]{Durao2016}
+\abntrefinfo{Durao e Schuch}{DURAO; SCHUCH}{2016}
+{DURAO, O.; SCHUCH, N.~J. \textbf{NanosatC-Br1 E 2 - INPE/CRS}. 2016.
+Dispon{\'\i}vel em:
+  \url{http://www3.inpe.br/win/arquivos/OtavioCupertinoDuraoNANOSATC-BR.pdf}.
+  Acesso em: 2020-11-22.}
+
+\bibitem[eoPortal 2020]{osiris2020}
+\abntrefinfo{eoPortal}{EOPORTAL}{2020}
+{EOPORTAL. \textbf{OSIRIS-REx (Origins, Spectral Interpretation, Resource
+  Identification, and Security‒Regolith Explorer)}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://directory.eoportal.org/web/eoportal/satellite-missions/o/osiris-rex}.
+  Acesso em: 2020-12-12.}
+
+\bibitem[ESA 2020]{esa-eng}
+\abntrefinfo{ESA}{ESA}{2020}
+{ESA. \textbf{Building and testing spacecraft}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://www.esa.int/Science\_Exploration/Space\_Science/Building\_and\_testing\_spacecraft}.
+  Acesso em: 2020-11-10.}
+
+\bibitem[Graham 2014]{Graham2014}
+\abntrefinfo{Graham}{GRAHAM}{2014}
+{GRAHAM, W. \textbf{Russian Dnepr rocket lofts record haul of 37 satellites}.
+  2014.
+Dispon{\'\i}vel em:
+  \url{https://www.nasaspaceflight.com/2014/06/russian-dnepr-rocket-record-launch-37-satellites/}.
+  Acesso em: 2020-11-23.}
+
+\bibitem[INPE 2018]{Nano2018}
+\abntrefinfo{INPE}{INPE}{2018}
+{INPE. \textbf{NanosatC-Br1 - Missao}. 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.inpe.br/crs/nanosat/missao/nanosatc\_br1.php}. Acesso em:
+  2020-11-26.}
+
+\bibitem[Inpe 2020]{Inpe}
+\abntrefinfo{Inpe}{INPE}{2020}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{NanosatC-Br1 - O primeiro Cubesat
+  nacional e o segundo nanossatelite brasileiro}. 2020.
+Dispon{\'\i}vel em: \url{http://www.inpe.br/crs/nanosat/}. Acesso em:
+  2020-11-26.}
+
+\bibitem[Lauretta 2017]{ORD}
+\abntrefinfo{Lauretta}{LAURETTA}{2017}
+{LAURETTA, D. \textbf{OSIRIS-REx : Sample Return from Asteroid}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.semanticscholar.org/paper/OSIRIS-REx-\%3A-Sample-Return-from-Asteroid-(-101955-)-Bennu-Lauretta/c45e02919f52ca1520fa80a2923e5fda4f3f844f}.
+  Acesso em: 2020-11-28.}
+
+\bibitem[Nasa 2020]{NMOR}
+\abntrefinfo{Nasa}{NASA}{2020}
+{NASA. \textbf{Mission OSIRIS-REx}. 2020.
+Dispon{\'\i}vel em: \url{https://www.nasa.gov/osiris-rex}. Acesso em:
+  2020-11-28.}
+
+\bibitem[Souza 2020]{Souza2020}
+\abntrefinfo{Souza}{SOUZA}{2020}
+{SOUZA, P.~N. de. \textbf{Aspectos do Processo de Desenvolvimento de Satelites
+  Artificiais}. 2020.
+Dispon{\'\i}vel em:
+  \url{http://mtc-m21c.sid.inpe.br/col/sid.inpe.br/mtc-m21c/2019/08.22.14.06/doc/270\_Aspectos
+  do Processo de Desenvolvimento de Satélites
+  Artificiais\_P2.9\_v1\_2002.pdf}. Acesso em: 2020-11-26.}
+
+\bibitem[UFSM 2014]{UFSM2014}
+\abntrefinfo{UFSM}{UFSM}{2014}
+{UFSM. \textbf{Primeiro satelite santa-mariense lancado e 100\% operacional}.
+  2014.
+Dispon{\'\i}vel em: \url{http://coral.ufsm.br/midia/?p=17529}. Acesso em:
+  2020-11-22.}
+
+\bibitem[Wikipedia 2020]{ETrojan}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2020a}
+{WIKIPEDIA. \textbf{Earth trojan - asteroid that orbits the Sun in the vicinity
+  of the Earth?Sun Lagrangian points L4}. 2020.
+Dispon{\'\i}vel em: \url{https://en.wikipedia.org/wiki/Earth\_trojan}. Acesso
+  em: 2020-11-28.}
+
+\bibitem[Wikipedia 2020]{OSIRIS-REx}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2020b}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{OSIRIS-REx - a NASA asteroid-study and
+  sample-return mission}. 2020.
+Dispon{\'\i}vel em: \url{https://en.wikipedia.org/wiki/OSIRIS-REx}. Acesso em:
+  2020-11-28.}
+
+\end{thebibliography}
